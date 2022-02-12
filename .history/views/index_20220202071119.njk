@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do</title>
+
+    <div class="listOfTodos">
+
+        <h2>Lista de Todo's</h2>
+
+        {% for todo in todos %}
+
+        <div>
+            <form method="POST" action="/todo/delete?_method=DELETE" enctype="multipart/form-data">
+
+                
+                  <p>Titulo : {{ todo.title}}</p>
+                  <p>Data final {{ todo.deadline}}</p>
+                  <input name="id" value={{todo.id}} type="hidden">
+                  <span>
+                    <button id="edit" href="/todo/edit/{{todo.id}}" >Editar</button>
+                    <button id="delete" type="submit">Deletar</button>
+                    <!-- <a class = "button" href="/todo/delete/{{todo.id}}">Deletar req params</a> --->
+                  </span>
+             </form>
+
+             <form method="POST"  action="/todo/edit?_method=PUT"></form>
+
+        </div>
+
+             
+               
+
+        {% endfor %}
+    </div>
+
+    <form method="POST" action="/todo/create"  enctype="multipart/form-data">
+          <div class="createTodo">
+
+            <h2> Criar um To-do</h2>
+            <p>
+                Titulo <input type="text" name="title">
+            </p>
+
+            <p>
+               Data <input type="date" name="deadline">
+            </p>
+            <button type="submit" >Criar to-do</button>
+        </div>
+    </form>
+
+      
+
+    <section>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do</title>
+
+    <div class="listOfTodos">
+
+        {% for todo if todos %}}
+        <section></section>
+
+    </div>
+
+    <form method="POST" action="/todo"  enctype="multipart/form-data">
+          <div class="createTodo">
+            <p>
+                Titulo <input type="text" name="title">
+            </p>
+
+            <p>
+               Data <input type="date" name="deadline">
+            </p>
+            <button type="submit" >Criar to-do</button>
+        </div>
+    </form>
+
+      
+
+    <section>
+</head>
+<body>
+    
+</body>
+</html>
