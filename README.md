@@ -4,7 +4,7 @@
 
 ## Sobre
 
-O projeto **To-do** é um site pessoal meu, e estou aprimorando aos poucos.
+O projeto **To-do** é um site pessoal meu para organizar tarefas , e estou aprimorando aos poucos.
 
 ## Tecnologias utilizadas
 
