@@ -42,7 +42,9 @@ Agora é só rodar o projeto:
 $ yarn dev
 ```
 
-## Acesso a área restrita
+E acesse a rota => http://localhost:3333 
+
+## Imagem
 
 <div align="center">
 	<img src="" />
@@ -52,4 +54,4 @@ $ yarn dev
 
 Desenvolvido por [Savio Picanço Do Espirito Santo Brito](https://github.com/savinnsk)
 
-[![Linkedin Badge](https://img.shields.io/badge/-Jean%20Fernandes%20de%20Macedo-0077B5?style=plastic&logo=Linkedin&link=https://www.linkedin.com/in/jean-fernandes-de-macedo-b843a3194/)](https://www.linkedin.com/in/savio-pican%C3%A7o-b739a518a/) 
+=> [Linkedin](https://www.linkedin.com/in/savio-pican%C3%A7o-b739a518a/)
