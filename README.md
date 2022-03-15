@@ -39,6 +39,7 @@ $ yarn install
 
 Agora é só rodar o projeto:
 ```zsh
+
 $ yarn dev
 ```
 
